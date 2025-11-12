@@ -1,0 +1,63 @@
+.homepage-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+}
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+.bg-banner {
+  margin: 70px 0;
+  width: 90%;
+  height: 500px;
+  background: linear-gradient(125deg, #a5b3fa, #c3a5feb3);
+  filter: brightness(1);
+  filter: blur(0.5px);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.title-01 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 18px;
+  background-color: #403f40bb;
+  border-radius: 12px;
+}
+.input-url {
+  width: 840px;
+  padding: 18px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 1.2rem;
+}
+.input-url:focus {
+  outline: none;
+  border-bottom: 2px solid #6228d7;
+}
+.input-url::placeholder {
+  color: #dedee0;
+}
+.download-btn {
+  padding: 18px;
+  margin-left: 10px;
+  background-color: #6228d7;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
